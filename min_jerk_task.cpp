@@ -94,7 +94,6 @@ init_min_jerk_task(void)
   int j, i;
   int ans;
   static int firsttime = TRUE;
-  
   my_times = 0;
   if (firsttime){
     firsttime = FALSE;
